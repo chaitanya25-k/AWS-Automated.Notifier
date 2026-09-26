@@ -25,7 +25,7 @@ An automated cloud architecture built on AWS that triggers real-time notificatio
 - Serverless Event Routing
 - Python (Boto3 SDK)
 
-  ## 🛠 How to Deploy (Infrastructure as Code)
+ ## 🛠 How to Deploy (Infrastructure as Code)
 
 You can deploy this entire architecture in minutes using the provided CloudFormation template.
 
