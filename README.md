@@ -2,7 +2,7 @@
 
 An automated cloud architecture built on AWS that triggers real-time notifications upon file uploads. This project demonstrates decoupling, serverless compute, and event-driven design—foundational concepts for modern data engineering and scalable AI pipelines.
 
-![Animated Architecture](ezgif.com-speed.gif)
+<img width="800" height="311" alt="Image" src="https://github.com/user-attachments/assets/1de87d26-960f-4e42-b0c4-5ba6a7f1eea3" />
 
 
 
