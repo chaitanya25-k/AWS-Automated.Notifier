@@ -1,6 +1,7 @@
 import json
 import boto3
 import urllib.parse
+import os
 
 # Initialize the SNS client
 sns_client = boto3.client('sns')
