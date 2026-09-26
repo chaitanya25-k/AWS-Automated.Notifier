@@ -6,7 +6,7 @@ import urllib.parse
 sns_client = boto3.client('sns')
 
 # PASTE YOUR SNS TOPIC ARN HERE
-SNS_TOPIC_ARN = 'arn:aws:sns:REGION:ACCOUNT-ID:FileAlertTopic'
+SNS_TOPIC_ARN = os.environ['SNS_TOPIC_ARN']
 
 def lambda_handler(event, context):
     # Extract the bucket name and file name from the S3 event
