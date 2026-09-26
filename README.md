@@ -24,3 +24,15 @@ An automated cloud architecture built on AWS that triggers real-time notificatio
 - Identity and Access Management (IAM) Roles & Policies
 - Serverless Event Routing
 - Python (Boto3 SDK)
+
+  ## 🛠 How to Deploy (Infrastructure as Code)
+
+You can deploy this entire architecture in minutes using the provided CloudFormation template.
+
+1. Clone this repository.
+2. Log into your AWS Console and open the **CloudFormation** dashboard.
+3. Click **Create stack** > **With new resources (standard)**.
+4. Select **Upload a template file** and upload the `template.yaml` file from this repository.
+5. Click **Next**, name the stack `ServerlessNotifierStack`, and check the box acknowledging that IAM resources will be created.
+6. Click **Submit**. AWS will automatically provision the S3 bucket, IAM role, Lambda function, and SNS topic.
+7. Once deployed, manually subscribe your email or SMS number to the newly created SNS Topic to start receiving alerts.
